@@ -12,9 +12,7 @@ import UIKit
 class MainVC: UIViewController {
     
     @IBOutlet weak var wageTxt: CurrencyTextField!
-    
     @IBOutlet weak var priceTxt: CurrencyTextField!
-    
     @IBOutlet weak var resultLbl: UILabel!
     @IBOutlet weak var hoursLbl: UILabel!
     
@@ -42,10 +40,7 @@ class MainVC: UIViewController {
                 hoursLbl.isHidden = false
                 resultLbl.text = "\(Wage.getHours(forWage: wage, andPrice: price))"
             }
-            
-            
         }
-        
     }
 
     @IBAction func clearCalculatorPressed(_ sender: Any) {
