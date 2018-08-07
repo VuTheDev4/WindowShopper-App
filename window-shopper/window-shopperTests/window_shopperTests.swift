@@ -7,7 +7,6 @@
 //
 
 import XCTest
-
 class window_shopperTests: XCTestCase {
     
     override func setUp() {
